@@ -16,14 +16,14 @@ Sushi.addEventListener('click', function() {
 let number = 30;
 //execute a function EVERY 1000ms
 const idInterval = setInterval(function () {
-  document.querySelector('#GameOver').textContent = number;
- number++;
+ number--;
+ 
   //number %= 5;
   if (number == 0) {
    clearInterval(idInterval);
     document.querySelector('#GameOver').style.display = 'block';
   }
-}, 30*1000);
+}, 1000);
     
 
 
