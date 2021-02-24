@@ -7,16 +7,34 @@ body {
   background-color: #214f4b;
   font-family: "Play", sans-serif;
 }
+
 main {
   background-image: url("../images/background-bamboo-surface-mat.jpg");
   background-position: center;
   background-size: cover;
   padding: 100px 20px;
+  height: 800px;
+  width: 800px;
+  margin: 50px auto;
   text-align: center;
-  position: absolute;
+  border: 1px solid #042c29;
+  position: relative;
+  cursor: url("../images/chopsticks2.0.png") 32 32, auto;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+}
+#BonApp,
+#GameOver {
+  display: none;
+  border: 2px solid #f87060;
+  color: #86a873;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #042c29;
+  font-size: 50px;
+  font-weight: 700;
 }
 #welcome {
   font-size: 50px;
@@ -36,7 +54,23 @@ main {
 }
 #sushi {
   position: absolute;
-  top: 50px;
-  left: 50px;
-  transform: translate(-50%, -50%);
+  top: 0%;
+  left: 0;
+  height: 100px;
+  width: 100px;
+}
+#chopstick {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  height: 100px;
+  width: 100px;
+}
+
+#blowfish {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  height: 100px;
+  width: 100px;
 }
